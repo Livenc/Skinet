@@ -657,6 +657,30 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
+      "Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -1703,13 +1727,23 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    },
+    "Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Infrastructure/Infrastructure.csproj",
+      "msbuildProject": "../Infrastructure/Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.3",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.3",
-      "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.3",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -1719,11 +1753,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Artem\\Desktop\\Skinet\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Artem\\Desktop\\skinet\\Skinet\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\Artem\\Desktop\\Skinet\\API\\API.csproj",
+      "projectPath": "C:\\Users\\Artem\\Desktop\\skinet\\Skinet\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Artem\\Desktop\\Skinet\\API\\obj\\",
+      "outputPath": "C:\\Users\\Artem\\Desktop\\skinet\\Skinet\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1739,7 +1773,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Artem\\Desktop\\skinet\\Skinet\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Artem\\Desktop\\skinet\\Skinet\\Infrastructure\\Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1759,10 +1797,6 @@
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
-            "target": "Package",
-            "version": "[7.0.3, )"
-          },
-          "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[7.0.3, )"
           },
