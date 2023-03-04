@@ -10,7 +10,9 @@
         "dependencies": {
           "Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.3",
+          "Microsoft.EntityFrameworkCore": "7.0.3",
           "Microsoft.EntityFrameworkCore.Design": "7.0.3",
+          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.3",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -403,6 +405,7 @@
       "Infrastructure/1.0.0": {
         "dependencies": {
           "Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.3",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.3"
         },
         "runtime": {

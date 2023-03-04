@@ -477,3 +477,5 @@ $RECYCLE.BIN/
 *.lnk
 API/obj/Debug/net7.0/refint/API.dll
 API/obj/Debug/net7.0/ref/API.dll
+API/obj/Debug/net7.0/project.razor.json
+API/obj/Debug/net7.0/API.GeneratedMSBuildEditorConfig.editorconfig

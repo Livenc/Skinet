@@ -673,6 +673,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.3",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.3"
         },
         "compile": {
@@ -1743,7 +1744,9 @@
     "net7.0": [
       "Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.3",
+      "Microsoft.EntityFrameworkCore >= 7.0.3",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.3",
+      "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.3",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -1753,11 +1756,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Artem\\Desktop\\skinet\\Skinet\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\Artem\\Desktop\\skinet\\Skinet\\API\\API.csproj",
+      "projectPath": "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Artem\\Desktop\\skinet\\Skinet\\API\\obj\\",
+      "outputPath": "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1774,8 +1777,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Artem\\Desktop\\skinet\\Skinet\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Artem\\Desktop\\skinet\\Skinet\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -1794,9 +1797,17 @@
             "target": "Package",
             "version": "[7.0.3, )"
           },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.3, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.3, )"
+          },
+          "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[7.0.3, )"
           },
