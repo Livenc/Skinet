@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\API\\API.csproj": {}
+    "C:\\Users\\Artem\\Desktop\\Skinet\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\API\\API.csproj": {
+    "C:\\Users\\Artem\\Desktop\\Skinet\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Artem\\Desktop\\Skinet\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Artem\\Desktop\\Skinet\\api\\API.csproj",
         "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\API\\obj\\",
+        "outputPath": "C:\\Users\\Artem\\Desktop\\Skinet\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Artem\\Desktop\\Skinet\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Artem\\Desktop\\Skinet\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -90,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\Core\\Core.csproj": {
+    "C:\\Users\\Artem\\Desktop\\Skinet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Artem\\Desktop\\Skinet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Artem\\Desktop\\Skinet\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Artem\\Desktop\\Skinet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -145,14 +145,14 @@
         }
       }
     },
-    "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Artem\\Desktop\\Skinet\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Artem\\Desktop\\Skinet\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Artem\\Desktop\\Skinet\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Artem\\Desktop\\Skinet\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -169,8 +169,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\Core\\Core.csproj"
+              "C:\\Users\\Artem\\Desktop\\Skinet\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Artem\\Desktop\\Skinet\\Core\\Core.csproj"
               }
             }
           }

@@ -140,3 +140,7 @@ C:\Users\Artem\Desktop\skinet\Skinet\API\obj\Debug\net7.0\scopedcss\bundle\API.s
 C:\Users\Artem\Desktop\skinet\Skinet\API\obj\Debug\net7.0\API.csproj.CopyComplete
 C:\Users\Artem\Desktop\skinet\Skinet\API\obj\Debug\net7.0\API.genruntimeconfig.cache
 C:\Users\Artem\Desktop\skinet\Skinet\API\obj\Debug\net7.0\ref\API.dll
+C:\Users\Artem\Desktop\Skinet\api\bin\Debug\net7.0\Core.dll
+C:\Users\Artem\Desktop\Skinet\api\bin\Debug\net7.0\Infrastructure.dll
+C:\Users\Artem\Desktop\Skinet\api\bin\Debug\net7.0\Infrastructure.pdb
+C:\Users\Artem\Desktop\Skinet\api\bin\Debug\net7.0\Core.pdb
