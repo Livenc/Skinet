@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0TGhcmEuhwc84j8nyDEKAN30fa6qipSnGBy2gS2ZG6xuZDJ1PXQZvYZlXoE0qLOwhNsExovaKsX3oe3/lm4Ucg==",
+  "dgSpecHash": "UGkqJi4VnVP/NegjfaElOrtoPLNqe+El+eqDPJfcS93cz3FxzBNza7ekjhvixlhZ0SqeODfJyk2qiTVH6MiBfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Artem\\Desktop\\Skinet\\api\\API.csproj",
+  "projectFilePath": "C:\\Users\\Artem\\Desktop\\skinet\\skinet\\Api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Artem\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Artem\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
